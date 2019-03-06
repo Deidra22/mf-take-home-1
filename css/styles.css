@@ -1,31 +1,25 @@
 .container-fluid{
     background-color:yellow;
-    height: 100vh;
 }
 
 .header{
     background-color: blue;
-    height:200px;
 }
 
 .nav{
     background-color: green;
-    height:50px;
 }
 
 .content{
     background-color:red;
-    height:250px;
 }
 
 .aside{
-    background-color:lightblue;
-    height:250px;
+    background-color:aqua;
 }
 
 .promo{
     background-color: orange;
-    height:150px;
 }
 
 .footer{
@@ -34,6 +28,14 @@
 }
 
 .border{
-    border: 4px solid black; 
+    border: thin solid black; 
+}
+
+.header, .promo, .nav {
+    height:150px;
+}
+
+.content, .aside{
+    height:200px;
 }
 
